@@ -2,6 +2,10 @@ package stepdefinitions.wikipedia;
 
 import static org.junit.Assert.assertTrue;
 
+import cucumber.api.java.After;
+import cucumber.api.java.Before;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import cucumber.api.PendingException;
@@ -12,16 +16,24 @@ import pageobjects.WikipediaHomePage;
 
 public class SearchSteps {
 
+	private WebDriver driver;
+
+	@Before
+	public void before() {
+		driver = new ChromeDriver();
+		driver.navigate().to("http://en.wikipedia.org");
+	}
+
+	@After
+	public void after() {
+		driver.quit();
+	}
+
 	@Given("^a user is able to open wikipedia$")
 	public void a_user_is_able_to_open_wikipedia() throws Throwable {
-		// Write code here that turns the phrase above into concrete actions
-		throw new PendingException();
-	}
-	
-	@Given("^Open http://en\\.wikipedia\\.org$")
-	public void open_http_en_wikipedia_org() throws Throwable {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new PendingException();
+
+		System.out.println("I am at the LogIn Page");
+
 	}
 
 	@Autowired
