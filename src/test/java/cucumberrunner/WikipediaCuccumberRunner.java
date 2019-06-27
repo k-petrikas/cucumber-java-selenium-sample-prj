@@ -8,6 +8,6 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 		plugin = {"pretty"},
-		glue = {"stepdefinitions"},
-		features = {"src/test/resources/features"})
+		glue = {"stepdefinitions.wikipedia"},
+		features = {"src/test/resources/features/CucumberHooksTest"})
 public class WikipediaCuccumberRunner {}
