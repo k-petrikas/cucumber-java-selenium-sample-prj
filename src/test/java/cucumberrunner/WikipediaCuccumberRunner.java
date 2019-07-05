@@ -1,6 +1,8 @@
 package cucumberrunner;
 
+
 import org.junit.runner.RunWith;
+
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 
@@ -9,5 +11,5 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
 		plugin = {"pretty"},
 		glue = {"stepdefinitions.wikipedia"},
-		features = {"src/test/resources/features/CucumberHooksTest"})
+		features = {"src/test/resources/features/"})
 public class WikipediaCuccumberRunner {}
