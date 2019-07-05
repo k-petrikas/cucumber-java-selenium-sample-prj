@@ -13,5 +13,10 @@ https://www.softwaretestinghelp.com/cucumber-bdd-tool-selenium-tutorial-30/
 
 --
 page object model examples
-https://www.pluralsight.com/guides/getting-started-with-page-object-pattern-for-your-selenium-tests
+https://www.pluralsight.com/guides/getting-started-with-page-object-pattern-for-your-selenium-tests  
 https://github.com/SeleniumHQ/selenium/wiki/PageFactory
+
+use tags to conrol what tests get run with what feature files:
+https://www.toolsqa.com/cucumber/cucumber-tags/
+
+
