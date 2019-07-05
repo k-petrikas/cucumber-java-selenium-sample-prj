@@ -16,10 +16,12 @@ Feature: Wikipedia Search
       | topic  | heading |
       | cheese | cheese  |
       | dog    | dog     |
+      |car	| car | 
 
   @useABrowser
   Scenario: User opens wikipedia and preformes search
     Given a user is able to open "http://en.wikipedia.org"
+    When a user searches for topic "dog"
     When a user searches
-      | topic  | heading |
-      | cheese | cheese  |
+      | Kingdom  | Phylum   | Class    | Order     | Family  |
+      | Animalia | Chordata | Mammalia | Carnivora | Canidae |
