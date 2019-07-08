@@ -14,13 +14,10 @@ public class HomePage extends TestBase {
 	private WebElement searchBox;
 
 	public HomePage(WebDriver driver) {
-		this.driver = driver;
 		PageFactory.initElements(driver, this);
 	}
 
 	public void searchForASpecificSubject(String input) {
-		System.out.println("i got here");
-
 		searchBox.sendKeys(input);
 		searchBox.submit();
 	}

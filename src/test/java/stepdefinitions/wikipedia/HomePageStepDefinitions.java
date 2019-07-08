@@ -26,12 +26,5 @@ public class HomePageStepDefinitions extends TestBase {
 		wikipediaHomePage.searchForASpecificSubject(arg1);
 	}
 	
-	@Then ("^ the Scientific classifications are correct")
-	public void a_user_searches_for_topic(DataTable datalist) throws Throwable {
-		List<List<String>> data = datalist.raw();
-
-		wikipediaHomePage.searchForASpecificSubject("x");
-	}
-
 
 }
