@@ -28,13 +28,12 @@ public class TopicPageStepDefinitions extends TestBase {
 		
 	@Then("^the animal clasification will be correct$")
 	public void the_animal_clasification_will_be_correct(DataTable arg1) throws Throwable {
-		List<Map<String, String>> list = arg1.asMaps(String.class, String.class);
+		List<List<String>> list = arg1.asLists(String.class);
 		
-		topicPage.CompareClassificationTable(list);
-		for(int i=0; i<list.size(); i++) {
-			System.out.println(list.get(i).get("Kingdom"));
-			System.out.println(list.get(i).get("Phylum"));
-		}
+		assertTrue(topicPage.CompareClassificationTable(list));
+		
+
+		
 	
 	}
 }
