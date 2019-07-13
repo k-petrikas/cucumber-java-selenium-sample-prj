@@ -21,7 +21,7 @@ public class StandaloneSeleniumTest {
 	public void navigate_to_wkikipedia_software_page_with_selenium() {
 
 		System.setProperty("webdriver.chrome.driver",
-				System.getProperty("user.dir") + "/src/test/resources/seleniumdrivers/chromedriver.exe");
+				System.getProperty("user.dir") + "/src/test/resources/webdriver/chromedriver.exe");
 
 		WebDriver driver = new ChromeDriver();
 		logger.info("application is up and running");

@@ -1,11 +1,12 @@
 package stepdefinitions.wikipedia;
 
-import cucumber.api.java.en.Given;
-import cucumber.api.java.en.Then;
-import cucumber.api.java.en.When;
+
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
 
 public class CucumberHooksSteps {
-    @Given("^this is the first step$")
+    @Given("this is the first step")
     public void This_Is_The_First_Step(){
         System.out.println("This is the first step");
     }
