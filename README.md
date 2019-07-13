@@ -17,6 +17,9 @@ https://www.pluralsight.com/guides/getting-started-with-page-object-pattern-for-
 https://github.com/SeleniumHQ/selenium/wiki/PageFactory
 
 use tags to conrol what tests get run with what feature files:
-https://www.toolsqa.com/cucumber/cucumber-tags/
+https://www.toolsqa.com/cucumber/cucumber-tags/  
+
+use serenity:  
+http://thucydides.info/docs/articles/an-introduction-to-serenity-bdd-with-cucumber.html  
 
 
