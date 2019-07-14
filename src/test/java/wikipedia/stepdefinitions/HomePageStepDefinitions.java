@@ -1,8 +1,8 @@
-package stepdefinitions.wikipedia;
+package wikipedia.stepdefinitions;
 
 
-import io.cucumber.java.en.Given;
-import io.cucumber.java.en.When;
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.When;
 import testbase.TestBase;
 import wikipediaPageObjects.HomePage;
 

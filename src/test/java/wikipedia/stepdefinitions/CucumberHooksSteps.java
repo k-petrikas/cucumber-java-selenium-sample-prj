@@ -1,9 +1,9 @@
-package stepdefinitions.wikipedia;
+package wikipedia.stepdefinitions;
 
 
-import io.cucumber.java.en.Given;
-import io.cucumber.java.en.Then;
-import io.cucumber.java.en.When;
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
 
 public class CucumberHooksSteps {
     @Given("this is the first step")

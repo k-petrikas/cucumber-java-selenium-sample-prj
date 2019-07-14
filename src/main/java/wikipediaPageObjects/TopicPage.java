@@ -22,6 +22,7 @@ public class TopicPage extends TestBase {
 		PageFactory.initElements(driver, this);
 	}
 
+	
 	public boolean CompareClassificationTable(List<List<String>> list) {
 
 		List<WebElement> tableRows = classificationTable.findElements(By.tagName("tr"));

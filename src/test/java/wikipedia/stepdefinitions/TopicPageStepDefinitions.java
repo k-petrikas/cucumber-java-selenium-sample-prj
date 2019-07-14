@@ -1,10 +1,10 @@
-package stepdefinitions.wikipedia;
+package wikipedia.stepdefinitions;
 
 import static org.junit.Assert.assertTrue;
 
 import java.util.List;
 
-import io.cucumber.java.en.Then;
+import cucumber.api.java.en.Then;
 import testbase.TestBase;
 import wikipediaPageObjects.TopicPage;
 	
