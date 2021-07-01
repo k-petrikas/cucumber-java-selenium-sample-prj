@@ -23,3 +23,6 @@ use serenity:
 http://thucydides.info/docs/articles/an-introduction-to-serenity-bdd-with-cucumber.html  
 
 
+why use serenity and cucuber: https://blogs.perficient.com/2016/08/03/serenity-and-cucumber-make-automation-testing-be-vivid/
+
+
